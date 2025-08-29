@@ -1,0 +1,23 @@
+{
+  "name": "isz",
+  "private": true,
+  "license": "unlicense",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "rm -rf packages/*/dist",
+    "prebuild": "npm run clean",
+    "build": "npm exec --ws -- tsup src/index.ts --format esm,cjs --dts --sourcemap",
+    "prepublishAll": "npm run build && npm test",
+    "publishAll": "npm exec --ws -- npx @lets/publish",
+    "format": "prettier --write .",
+    "test": "NODE_NO_WARNINGS=1 node --test --experimental-test-coverage --experimental-test-snapshots $@ **/test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}

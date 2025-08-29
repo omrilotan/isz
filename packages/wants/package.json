@@ -1,0 +1,32 @@
+{
+  "name": "@isz/wants",
+  "version": "0.0.0",
+  "description": "🐾 What does the request want?",
+  "tags": [
+    "accepts",
+    "content-type",
+    "mime",
+    "type-checking",
+    "isz",
+    "🐾"
+  ],
+  "author": "omrilotan",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/isz.git"
+  },
+  "homepage": "https://github.com/omrilotan/isz/tree/main/packages/wants",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  }
+}

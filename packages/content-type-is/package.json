@@ -1,0 +1,31 @@
+{
+  "name": "@isz/content-type-is",
+  "version": "0.0.0",
+  "description": "🐾 What kind of content is this request/response?",
+  "tags": [
+    "content-type",
+    "mime",
+    "type-checking",
+    "isz",
+    "🐾"
+  ],
+  "author": "omrilotan",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/isz.git"
+  },
+  "homepage": "https://github.com/omrilotan/isz/tree/main/packages/content-type-is",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  }
+}
