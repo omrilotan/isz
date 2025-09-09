@@ -1,5 +1,7 @@
 # @isz/content-type-is [![](https://img.shields.io/npm/v/@isz/content-type-is)](https://www.npmjs.com/package/@isz/content-type-is)
 
+Check the content type of a request or response in a simple way.
+
 ```ts
 import { contentTypeIs } from "@isz/content-type-is";
 // …

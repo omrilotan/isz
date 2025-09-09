@@ -1,0 +1,31 @@
+{
+  "name": "contains-path-traversal",
+  "version": "0.0.0",
+  "description": "🚶 Does this string contain path traversal?",
+  "tags": [
+    "traversal",
+    "path-traversal",
+    "vulnerability",
+    "isz",
+    "🐾"
+  ],
+  "author": "omrilotan",
+  "license": "UNLICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omrilotan/isz.git"
+  },
+  "homepage": "https://github.com/omrilotan/isz/tree/main/packages/contains-path-traversal",
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  }
+}

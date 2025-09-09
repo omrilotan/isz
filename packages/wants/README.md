@@ -1,5 +1,7 @@
 # @isz/wants [![](https://img.shields.io/npm/v/@isz/wants)](https://www.npmjs.com/package/@isz/wants)
 
+Check what a request wants in a simple way.
+
 ```ts
 import { wants } from "@isz/wants";
 // …

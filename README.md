@@ -17,3 +17,7 @@ Eats requests or responses, and knows if it adheres to a specific content type (
 ### [`@isz/wants`](packages/wants)
 
 Eats requests, and knows what the request wants (accepts header → html, json, xml, etc.)
+
+### [`contains-path-traversal`](packages/contains-path-traversal)
+
+Eats strings, and knows if they contain path traversal attempts (../ or urlEncoded versions of it)
