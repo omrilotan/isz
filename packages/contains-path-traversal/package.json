@@ -1,8 +1,8 @@
 {
   "name": "contains-path-traversal",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "🚶 Does this string contain path traversal?",
-  "tags": [
+  "keywords": [
     "traversal",
     "path-traversal",
     "vulnerability",
